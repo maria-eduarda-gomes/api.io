@@ -39,7 +39,7 @@
       color: #fff;
     }
     .button1 {
-      background-color: #007bff;
+      background-color: #1E90FF;
     }
     .button2 {
       background-color: #28a745;
@@ -54,8 +54,8 @@
   <div class="container">
     <h1>Patos</h1>
     <p>Clique em um dos botões para iniciar a consulta.</p>
-    <button class="Chamar API" onclick="acao1()">"Chamar API"</button>
-    <button class="button2" onclick="acao2()">Botão 2</button>
+    <button class="Chamar API" onclick="acao1()">Chamar API</button>
+    <button class="Lista de curiosidades" onclick="acao2()">Lista de curiosidades</button>
   </div>
 
   <script>
