@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tela com Título, Descrição e Botões</title>
+  <title>Chamada de API</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -52,8 +52,8 @@
 <body>
 
   <div class="container">
-    <h1>Título da Página</h1>
-    <p>Esta é uma descrição simples para a página. Aqui você pode adicionar mais detalhes sobre o que a página faz.</p>
+    <h1>Patos</h1>
+    <p>Clique em um dos botões para iniciar a consulta.</p>
     <button class="button1" onclick="acao1()">Botão 1</button>
     <button class="button2" onclick="acao2()">Botão 2</button>
   </div>
