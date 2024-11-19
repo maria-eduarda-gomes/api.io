@@ -42,7 +42,7 @@
       background-color: #1E90FF;
     }
     .button2 {
-      background-color: #28a745;
+      background-color: #FF8C00;
     }
     button:hover {
       opacity: 0.9;
