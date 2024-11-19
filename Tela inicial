@@ -16,7 +16,7 @@
     }
     .container {
       text-align: center;
-      background-color: #1E90FF;
+      background-color: #fff;
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -36,7 +36,7 @@
       border: none;
       border-radius: 5px;
       cursor: pointer;
-      color: #1E90FF;
+      color: #eee;
     }
     .button1 {
       background-color: #1E90FF;
