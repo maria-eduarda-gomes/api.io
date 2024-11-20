@@ -1,3 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chamada de API</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #fff;
 <style>
 .button-container {
             display: flex;
@@ -34,3 +49,22 @@
     </div>
 </body>
 </head>
+  <div class="container">
+    <h1>Patos</h1>
+    <p>Clique em um dos botões para iniciar a consulta.</p>
+    <button class="Chamar API" onclick="acao1()">Chamar API</button>
+    <button class="Lista de curiosidades" onclick="acao2()">Lista de curiosidades</button>
+  </div>
+
+  <script>
+    function acao1() {
+      alert("Você clicou no Botão 1!");
+    }
+
+    function acao2() {
+      alert("Você clicou no Botão 2!");
+    }
+  </script>
+
+</body>
+</html>
