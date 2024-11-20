@@ -13,43 +13,40 @@
       height: 100vh;
       margin: 0;
       background-color: #fff;
-    }
-    .container {
-      text-align: center;
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      width: 300px;
-    }
-    h1 {
-      color: #333;
-    }
-    p {
-      color: #666;
-      margin-bottom: 20px;
-    }
-    button {
-      padding: 10px 20px;
-      margin: 5px;
-      font-size: 16px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      color: #eee;
-    }
-    .button1 {
-      background-color: #1E90FF;
-    }
-    .button2 {
-      background-color: #FF8C00;
-    }
-    button:hover {
-      opacity: 0.9;
-    }
-  </style>
+  <style>
+.button-container {
+            display: flex;
+            gap: 10px;
+        }
+        .button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            color: white;
+        }
+        .button-red {
+            background-color: #e74c3c;
+        }
+        .button-red:hover {
+            background-color: #c0392b;
+        }
+        .button-blue {
+            background-color: #3498db;
+        }
+        .button-blue:hover {
+            background-color: #2980b9;
+        }
+    </style>
 </head>
 <body>
+    <div class="button-container">
+        <button class="button button-red">Botão Vermelho</button>
+        <button class="button button-blue">Botão Azul</button>
+    </div>
+</body>
+</head>
 
   <div class="container">
     <h1>Patos</h1>
