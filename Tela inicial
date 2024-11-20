@@ -4,68 +4,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chamada de API</title>
-<style>
+  <style>
     body {
       font-family: Arial, sans-serif;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
-      height: 100vh;
-      margin: 0;
-      background-color: #fff;
-    }
-    .container {
-      text-align: center;
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      width: 300px;
+      margin-top: 50px;
     }
     h1 {
       color: #333;
     }
     p {
-      color: #666;
-      margin-bottom: 20px;
+      font-size: 16px;
+      color: #555;
     }
     button {
+      margin: 10px;
       padding: 10px 20px;
-      margin: 5px;
       font-size: 16px;
+      cursor: pointer;
       border: none;
       border-radius: 5px;
-      cursor: pointer;
-      color: #eee;
+      color: #fff;
     }
-    .button1 {
-      background-color: #1E90FF;
+    #btn1 {
+      background-color: #007bff;
     }
-    .button2 {
-      background-color: #FF8C00;
-    }
-    button:hover {
-      opacity: 0.9;
+    #btn2 {
+      background-color: #28a745;
     }
   </style>
 </head>
 <body>
 
-  <div class="container">
-    <h1>Patos</h1>
-    <p>Clique em um dos botões para iniciar a consulta.</p>
-    <button class="Chamar API" onclick="acao1()">Chamar API</button>
-    <button class="Lista de curiosidades" onclick="acao2()">Lista de curiosidades</button>
-  </div>
+  <h1>Chamada de API</h1>
+  <p>Clique em um dos botões para começar a consulta</p>
+
+  <button id="btn1">Chamar API</button>
+  <button id="btn2">Listagem de curiosidades</button>
 
   <script>
-    function acao1() {
-      alert("Você clicou no Botão 1!");
-    }
+    document.getElementById("btn1").addEventListener("click", function() {
+      alert("API chamada com sucesso!");
+      // Aqui você pode adicionar o código para chamar a API
+    });
 
-    function acao2() {
-      alert("Você clicou no Botão 2!");
-    }
+    document.getElementById("btn2").addEventListener("click", function() {
+      alert("Listagem de curiosidades carregada!");
+      // Aqui você pode adicionar o código para listar as curiosidades
+    });
   </script>
 
 </body>
